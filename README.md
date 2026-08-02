@@ -111,7 +111,7 @@ Enforced after `replaceAllText`, before styling restoration. Runs in linear time
 
 ---
 
-### Pattern 9: Robust JSON extraction
+### Pattern 9: Brace-matching JSON extraction
 
 Claude sometimes prefaces its JSON output with prose ("Here's the JSON response:") or wraps it in markdown code fences. Naive `JSON.parse()` fails on both.
 
