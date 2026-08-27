@@ -1,6 +1,6 @@
 ## Claude + Google Workspace: AI-driven document generation with grounding and cost controls
 
-A pattern reference from building a production Google Sheets → Google Slides deck generation pipeline for a Canadian M&A advisory firm. The pipeline generates confidential deal documents (Confidential Information Memorandums, Blind Profiles, Business Plans) with AI-written narrative sections grounded to real deal data.
+A pattern reference from building a production Google Sheets → Google Slides deck generation pipeline for OpnRoad M&A, a Canadian M&A advisory firm. The pipeline generates confidential deal documents (Confidential Information Memorandums, Blind Profiles, Business Plans) with AI-written narrative sections grounded to real deal data.
 
 This repo contains no client data, no deal information, no real API keys, no proprietary prompts, and no source code. It's a writeup of the engineering patterns used to make LLM-driven document generation reliable, cheap, and safe enough to trust with confidential M&A work.
 
@@ -140,6 +140,6 @@ After replacement, the pipeline applies per-card `updateTextStyle` operations to
 
 ### About this writeup
 
-I'm Hassan Nawaz, a senior AI-native full-stack engineer. I built this pipeline for a Canadian M&A advisory firm as part of an ongoing engagement. Roughly 30-60 seconds per generated deck, 4 parallel LLM calls per deck, ~$0.037 per deck after prompt caching, running reliably in production.
+I'm Hassan Nawaz, a senior AI-native full-stack engineer. I built this pipeline for OpnRoad M&A as part of an ongoing engagement. Roughly 30-60 seconds per generated deck, 4 parallel LLM calls per deck, ~$0.037 per deck after prompt caching, running reliably in production.
 
 Contact: [stellaflo.com](https://stellaflo.com) · [linkedin.com/in/ehassannawaz](https://www.linkedin.com/in/ehassannawaz)
